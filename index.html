@@ -4,10 +4,53 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>FindAFriend</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <!-- <div id="app"></div> -->
+    <div class="container">
+      <div class="left-side">
+        <img
+          class="logo"
+          src="./assets/logo.svg"
+          alt="company logo using face dog"
+        />
+        <div class="friends">
+          <img src="./assets/friends.svg" alt="friends icons" />
+          <span> <strong>324 amigos</strong> na sua cidade </span>
+        </div>
+        <h1>Leve a felicidade para o seu lar</h1>
+        <h4>Encontre o animal de estimação ideal para seu estilo de vida!</h4>
+      </div>
+      <div class="right-side">
+        <div class="main-square">
+          <nav>
+            <img
+              class="button-sandwich"
+              src="./assets/buttonSandwich.svg"
+              alt="image of sandwich button"
+            />
+          </nav>
+          <img class="dog-image" src="./assets/dog.png" alt="image of dog" />
+        </div>
+        <div class="below-square">
+          <button>Acesse Agora</button>
+        </div>
+        <div class="half-square"></div>
+      </div>
+      <div class="right-corner">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
   </body>
 </html>
