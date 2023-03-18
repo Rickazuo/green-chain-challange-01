@@ -19,11 +19,26 @@
     <!-- <div id="app"></div> -->
     <div class="container">
       <div class="left-side">
-        <img
-          class="logo"
-          src="./assets/logo.svg"
-          alt="company logo using face dog"
-        />
+        <div class="header-mobile">
+          <div class="title-mobile">
+            <img
+              class="logo"
+              src="./assets/logo.svg"
+              alt="company logo using face dog"
+            />
+            <button class="button-mobile">
+              <div class="line-btn"></div>
+            </button>
+          </div>
+          <div class="divider"></div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre o app</a></li>
+            <li><a href="#">Animais disponíveis</a></li>
+            <li><a href="#">Sobre a FindAfriend</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
         <div class="friends">
           <img src="./assets/friends.svg" alt="friends icons" />
           <span> <strong>324 amigos</strong> na sua cidade </span>
@@ -33,13 +48,17 @@
       </div>
       <div class="right-side">
         <div class="main-square">
-          <nav>
-            <img
-              class="button-sandwich"
-              src="./assets/buttonSandwich.svg"
-              alt="image of sandwich button"
-            />
-          </nav>
+          <button class="button-sandwich">
+            <div class="line-btn"></div>
+          </button>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre o app</a></li>
+            <li><a href="#">Animais disponíveis</a></li>
+            <li><a href="#">Sobre a FindAfriend</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+
           <img class="dog-image" src="./assets/dog.png" alt="image of dog" />
         </div>
         <div class="below-square">
@@ -52,5 +71,6 @@
         <div></div>
       </div>
     </div>
+    <script src="./main.js"></script>
   </body>
 </html>
