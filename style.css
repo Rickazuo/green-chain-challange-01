@@ -22,6 +22,10 @@
   padding-left: 7.625rem;
 }
 
+.header-mobile ul {
+  display: none;
+}
+
 .logo {
   margin-bottom: 4.3125rem;
 }
@@ -38,11 +42,11 @@
   border: transparent;
   cursor: pointer;
 
-  width: 72px;
-  height: 72px;
+  width: 4.5rem;
+  height: 4.5rem;
 
   background: #ffffff;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
   z-index: 99;
 }
 
@@ -78,8 +82,8 @@
 
   font-style: normal;
   font-weight: 800;
-  font-size: 16px;
-  line-height: 34px;
+  font-size: 1rem;
+  line-height: 2.125rem;
 
   color: #ffffff;
 }
@@ -87,7 +91,7 @@
 .left-side h1 {
   font-style: normal;
   font-weight: 700;
-  font-size: 72px;
+  font-size: 4.5rem;
   line-height: 110%;
 
   letter-spacing: -0.02em;
@@ -101,8 +105,8 @@
 .left-side h4 {
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 34px;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
 
   max-width: 25.4375rem;
 
@@ -126,7 +130,7 @@
   min-height: 33.8125rem;
 
   background: linear-gradient(153.09deg, #f36a6f 17.23%, #e44449 73.77%);
-  border-radius: 20px;
+  border-radius: 1.25rem;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
@@ -145,11 +149,11 @@
   border: transparent;
   cursor: pointer;
 
-  width: 72px;
-  height: 72px;
+  width: 4.5rem;
+  height: 4.5rem;
 
   background: #ffffff;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
   z-index: 99;
 }
 
@@ -206,8 +210,8 @@
 .dog-image {
   position: absolute;
   bottom: 0;
-  max-width: 464px;
-  max-height: 560px;
+  max-width: 29rem;
+  max-height: 35rem;
 
   transform: scaleX(-1);
   z-index: -1;
@@ -224,7 +228,7 @@
   padding-left: 3.4rem;
 
   background: linear-gradient(0deg, #e44449, #e44449), url(.jpg), #d9d9d9;
-  border-radius: 20px;
+  border-radius: 1.25rem;
 
   list-style-type: none;
 }
@@ -234,7 +238,7 @@
 
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.875rem;
   line-height: 110%;
 
   letter-spacing: -0.02em;
@@ -249,7 +253,7 @@
 .below-square {
   padding: 2.5rem 3.125rem;
   background: #e44449;
-  border-radius: 20px;
+  border-radius: 1.25rem;
 
   display: flex;
   align-items: center;
@@ -259,7 +263,7 @@
 
 .below-square button {
   background: #ffffff;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   padding: 1.1875rem 6.25rem;
   border: transparent;
   width: 100%;
@@ -267,8 +271,8 @@
   font-family: Nunito;
   font-style: normal;
   font-weight: 800;
-  font-size: 20px;
-  line-height: 34px;
+  font-size: 1.25rem;
+  line-height: 2.125rem;
 
   text-align: center;
 
@@ -280,7 +284,7 @@
   height: 3.5rem;
 
   background: #e44449;
-  border-radius: 20px 20px 0 0;
+  border-radius: 1.25rem 1.25rem 0 0;
 }
 
 .right-corner {
@@ -299,7 +303,7 @@
   height: 44.8rem;
 
   background: #e44449;
-  border-radius: 20px 0 0 20px;
+  border-radius: 1.25rem 0 0 1.25rem;
 }
 
 .right-corner div:nth-child(2) {
@@ -307,7 +311,7 @@
   height: 4.2rem;
 
   background: #e44449;
-  border-radius: 20px 0 0 0;
+  border-radius: 1.25rem 0 0 0;
 }
 
 @media screen and (max-width: 1400px) {
@@ -347,7 +351,7 @@
 
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 110%;
 
     letter-spacing: -0.02em;
@@ -356,7 +360,7 @@
   }
 
   .header-mobile.open {
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 1.25rem 1.25rem;
   }
 
   .header-mobile.open ul {
@@ -388,7 +392,7 @@
     height: 0px;
 
     opacity: 0.2;
-    border: 1px solid #ffffff;
+    border: 0.0625rem solid #ffffff;
   }
 
   .header-mobile.open .divider {
@@ -439,7 +443,7 @@
   .dog-image {
     position: initial;
     min-width: 0;
-    width: 350px;
+    width: 21.875rem;
   }
 
   .half-square {
