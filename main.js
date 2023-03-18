@@ -1,4 +1,3 @@
-// import './style.css'
 
 const menuBtn = document.querySelector('.button-sandwich')
 const mobileMenuBtn = document.querySelector('.button-mobile')
