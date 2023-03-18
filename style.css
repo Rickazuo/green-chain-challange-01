@@ -219,6 +219,7 @@
 
 .main-square ul {
   display: none;
+  position: absolute;
   justify-content: center;
   flex-direction: column;
   gap: 1rem;
