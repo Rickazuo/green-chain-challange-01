@@ -18,11 +18,16 @@
 }
 
 .left-side {
-  padding-top: 5.8125rem;
+  padding-top: 2.5rem;
   padding-left: 7.625rem;
 }
 
-.header-mobile ul {
+.ul-land a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header-mobile .ul-mobile {
   display: none;
 }
 
@@ -118,16 +123,42 @@
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
-  max-width: 37rem;
-  margin-top: 1.875rem;
+  max-width: 50rem;
+  margin-top: 1.5rem;
 
-  right: 9rem;
+  right: 7rem;
+}
+
+.ul-land {
+  margin-top: 1.225rem;
+  margin-bottom: 2.8rem;
+  text-decoration: none;
+  display: flex;
+  list-style: none;
+  gap: 3.875rem;
+  padding: 0.625rem;
+  flex-wrap: wrap;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+  opacity: 0.5;
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+.ul-land a:hover {
+  opacity: 1;
+  font-weight: 700;
 }
 
 .main-square {
   position: relative;
   min-width: 37rem;
-  min-height: 33.8125rem;
+  min-height: 24.125rem;
 
   background: linear-gradient(153.09deg, #f36a6f 17.23%, #e44449 73.77%);
   border-radius: 1.25rem;
@@ -209,9 +240,13 @@
 
 .dog-image {
   position: absolute;
+  left: 0;
   bottom: 0;
-  max-width: 29rem;
-  max-height: 35rem;
+  right: 0;
+  margin: auto;
+  align-self: center;
+  max-width: 25.375rem;
+  max-height: 30.25rem;
 
   transform: scaleX(-1);
   z-index: -1;
@@ -281,8 +316,8 @@
 }
 
 .half-square {
-  width: 592px;
-  height: 3.5rem;
+  min-width: 47.8888rem;
+  height: 5.65rem;
 
   background: #e44449;
   border-radius: 1.25rem 1.25rem 0 0;
@@ -301,7 +336,8 @@
 
 .right-corner div:nth-child(1) {
   min-width: 5.75rem;
-  height: 44.8rem;
+  height: 34.8rem;
+  margin-top: 8.4rem;
 
   background: #e44449;
   border-radius: 1.25rem 0 0 1.25rem;
@@ -309,13 +345,151 @@
 
 .right-corner div:nth-child(2) {
   min-width: 5.75rem;
-  height: 4.2rem;
+  height: 5.55rem;
 
   background: #e44449;
   border-radius: 1.25rem 0 0 0;
 }
 
-@media screen and (max-width: 1400px) {
+.second-container {
+  padding: 8.75rem 7rem;
+}
+
+.second-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 110%;
+
+  letter-spacing: -0.02em;
+
+  margin-bottom: 5rem;
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-areas:
+    "a b"
+    "c c";
+  gap: 2rem;
+}
+
+.card-product {
+  grid-area: a;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4375rem;
+  padding: 1.875rem 1.75rem;
+
+  width: 280px;
+  height: 197px;
+
+  background: #fdeced88;
+  border: 1px solid rgba(241, 81, 86, 0.3);
+  border-radius: 20px;
+}
+
+.card-product p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 110%;
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.card-ong {
+  grid-area: b;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4375rem;
+  padding: 1.875rem 1.75rem;
+
+  width: 280px;
+  height: 197px;
+
+  background: #fdeced88;
+  border: 1px solid rgba(241, 81, 86, 0.3);
+  border-radius: 20px;
+}
+
+.card-ong p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 110%;
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.card-filter {
+  grid-area: c;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4375rem;
+  padding: 1.875rem 1.75rem;
+
+  width: 592px;
+  height: 197px;
+
+  background: #fdeced88;
+  border: 1px solid rgba(241, 81, 86, 0.3);
+  border-radius: 20px;
+}
+
+.card-filter p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 110%;
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.img-filter {
+  position: relative;
+
+  width: 592px;
+  height: 426px;
+
+  background: #fdeced88;
+
+  border: 1px solid rgba(241, 81, 86, 0.3);
+  border-radius: 20px;
+}
+
+.img-filter :nth-child(1) {
+  position: absolute;
+  left: 0px;
+  top: -40px;
+  z-index: 1;
+  border-radius: 8.96137px;
+}
+
+.img-filter :nth-child(2) {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  border-radius: 8.96137px;
+}
+
+/* MEDIAS QUERY */
+
+@media screen and (max-width: 1500px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -404,6 +578,10 @@
     position: initial;
   }
 
+  .ul-land {
+    display: none;
+  }
+
   .right-corner {
     display: none;
   }
@@ -413,7 +591,12 @@
   }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 850px) {
+  .right-side {
+    display: flex;
+    align-items: center;
+  }
+
   .main-square {
     position: relative;
     display: flex;
