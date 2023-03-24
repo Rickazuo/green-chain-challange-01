@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto foi realizado como parte do #1 Sprint do desafio #Green Chain Challenge da RocketSeat.
 
-_<h2 align="center" ><a href="https://rickazuo.github.io/green-chain-challange-sp-01/" target="_blank">Visite o projeto online</a></h2>_
+_<h2 align="center" ><a href="https://green-chain-challange-01.vercel.app/" target="_blank">Visite o projeto online</a></h2>_
 
 ## 📃 Collaborators
 
